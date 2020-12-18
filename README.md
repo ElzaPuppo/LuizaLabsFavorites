@@ -60,7 +60,7 @@ Solução apresentada ao desafio proposto pela LuizaLabs desenvolvida utilizando
 9. Rode o servidor local
 `python manage.py runserver`
 
-Para acessar nossa plataforma de Marketplace da Lu, agora basta você abrir seu navegador e acessar através do endereço:
+Para acessar nossa plataforma de Favoritos, agora basta você abrir seu navegador e acessar através do endereço:
 > http://localhost:8000
 
 A página inicial mostra a documentação da API.
