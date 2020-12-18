@@ -193,7 +193,7 @@ def deletefavorite(request, idclient, idproduct):
         nameP = favorite.product.title
 
         favorite.delete()
-        return HttpResponse(f"Favorito do produto {nameP} do cliente {nameC} deletado com sucesso!")
+        return HttpResponse(f"O produto {nameP} foi tirado da lista de favoritos do cliente {nameC} com sucesso!")
 
     else:
         HttpResponseNotAllowed(["DELETE"])
@@ -254,7 +254,7 @@ def detailreview(request, idclient, idproduct):
         nameP = review.product.title
 
         review.delete()
-        return HttpResponse(f"Review do produto {nameP} do cliente {nameC} deletado com sucesso!")
+        return HttpResponse(f"A review do produto  {nameP} realizado por {nameC} foi deletado com sucesso!")
 
     else:
         HttpResponseNotAllowed(["DELETE", "GET"])
