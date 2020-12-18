@@ -79,7 +79,27 @@ https://documenter.getpostman.com/view/7914516/TVssj8dV
 Para acessar nossa plataforma de Marketplace da Lu, agora basta você abrir seu navegador e acessar através do endereço:
 > http://localhost:8000
 
-A página inicial mostra os produtos cadastrados, quem é o vendedor responsável, descrição, quantidade disponível em estoque e mais. Faça login com o nome de usuário e senha que você criou no passo 7 para ter acesso à área de vendedor, podendo adicionar, atualizar, inativar/ativar e excluir produtos.
+A página inicial mostra a documentação da API.
+
+<ul>
+        <li><code>client</code> <em>foreign key </em>
+        -- Referência ao produto</li>
+        <li><code>product</code> <em>foreign key </em>
+        -- Referência ao  cliente </li>   
+        <li><code>text</code> <em>string</em>
+            -- Comentário sobre o produto</li> 
+        <li><code>score</code> <em>decimal </em>
+            -- Nota </li>           
+        </ul>
+        
+
+        <h3>API Requests</h3>
+        <p>Utilizando o Postman foi possível realizar os testes na API com a finalidade de verificação das urls fornecidas, como seguem os exemplos:</p>
+        
+        <h3>Brand</h3>
+        <pre>POST <code>http://127.0.0.1/api/brands/</code></pre>
+        {
+            
 
 
 ## 📝 License
