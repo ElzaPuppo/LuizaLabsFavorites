@@ -31,15 +31,15 @@ https://documenter.getpostman.com/view/7914516/TVssj8dV
   `git clone https://github.com/ElzaPuppo/LuizaLabsFavorites.git`
 
 2. Entre na pasta do projeto
-  `cd desafio_luiza_code`
+  `cd challengeapis`
 
 3. Crie um ambiente virtual
 
 - No mac/linux:
-  `python3 -m venv venv_venv_challengeapi`
+  `python3 -m venv venv_challengeapi`
 
 - No windows:
-  `python -m venv venv_venv_challengeapi`
+  `python -m venv venv_challengeapi`
 
 4. Ative seu ambiente virtual
 
@@ -48,10 +48,10 @@ https://documenter.getpostman.com/view/7914516/TVssj8dV
 
 - No windows:
   - Se você estiver usando o terminal do Windows PowerShell o comando é:
-  `venv_venv_challengeapi\Scripts\activate`
+  `venv_challengeapi\Scripts\activate`
 
   - No CMD:
-  `venv_venv_challengeapi\Scripts\activate.bat`
+  `venv_challengeapi\Scripts\activate.bat`
 
   - No terminal do VSCode
   `. myvenv\Scripts\activate.ps1`
@@ -70,7 +70,7 @@ https://documenter.getpostman.com/view/7914516/TVssj8dV
  `python manage.py createsuperuser`
    - Forneça um nome, email e senha para este usuário
 
-8. Entre na pasta luiza_code
+8. Entre na pasta api
 `cd api`
 
 9. Rode o servidor local
