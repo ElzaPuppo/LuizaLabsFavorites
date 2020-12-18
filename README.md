@@ -10,22 +10,6 @@
 Solução apresentada ao desafio proposto pela LuizaLabs desenvolvida utilizando Django, Python e SQLite.
 
 
-https://documenter.getpostman.com/view/7914516/TVssj8dV
-
-
-### Parâmetros de execução
-| Parâmetro  | Propósito | Valor default |
-|---|---|---|
-| memory  | Define se as informações serão armazenadas em memória (SQLite) ou em um banco MySql | False |
-| mysql_host  | Ip e porta do MySql | localhost:3306 |
-| mysql_user  | Usuário de acesso ao MySql  | root |
-| mysql_passwd  | Senha de acesso ao MySql  | admin |
-| mysql_db | Schema do MySql utilizado pela aplicação | luizalabs |
-| http_port | Porta que o servidor ficará ouvindo | 8888 |
-| logging | Nível de apresentação de log (_debug_, _info_, _warning_, _error_ ou _none_) | info |
-| log_file_prefix | Define o caminho do arquivo de log (sem informar esse parâmetro os logs serão exibidos no terminal) |  | 
-
-
 ## Executando a aplicação
 1. No seu terminal, baixe o projeto através do comando:
   `git clone https://github.com/ElzaPuppo/LuizaLabsFavorites.git`
@@ -81,25 +65,6 @@ Para acessar nossa plataforma de Marketplace da Lu, agora basta você abrir seu 
 
 A página inicial mostra a documentação da API.
 
-<ul>
-        <li><code>client</code> <em>foreign key </em>
-        -- Referência ao produto</li>
-        <li><code>product</code> <em>foreign key </em>
-        -- Referência ao  cliente </li>   
-        <li><code>text</code> <em>string</em>
-            -- Comentário sobre o produto</li> 
-        <li><code>score</code> <em>decimal </em>
-            -- Nota </li>           
-        </ul>
-        
-
-        <h3>API Requests</h3>
-        <p>Utilizando o Postman foi possível realizar os testes na API com a finalidade de verificação das urls fornecidas, como seguem os exemplos:</p>
-        
-        <h3>Brand</h3>
-        <pre>POST <code>http://127.0.0.1/api/brands/</code></pre>
-        {
-            
 
 
 ## 📝 License
